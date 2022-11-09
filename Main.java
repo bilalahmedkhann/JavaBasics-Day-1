@@ -5,5 +5,8 @@ public class Main {
 
         DefaultValue def = new DefaultValue();
         def.displayMessage();
+
+        StringEquals equals = new StringEquals();
+        equals.stringEq();
     }
 }
