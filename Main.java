@@ -38,5 +38,8 @@ public class Main {
             System.out.println("You have to manually run the program");
 
         }
+        else {
+            System.out.println("Invalid input");
+        }
     }
 }
