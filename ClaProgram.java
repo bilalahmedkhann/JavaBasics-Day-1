@@ -5,6 +5,7 @@ public class ClaProgram {
         cla.getNameByCL(args);
 
     }
+
     //1.4 To find the sum of command-line arguments and count the invalid integers entered.
     public void find(String[] args) {
         int sum = 0;
@@ -19,7 +20,6 @@ public class ClaProgram {
         System.out.println("Sum of input number = " + sum);
         System.out.println("Number of invalid inputs = " + invalidIntCount);
     }
-
 
     //1.5 To get the name using the command line.
     public void getNameByCL(String[] args) {
